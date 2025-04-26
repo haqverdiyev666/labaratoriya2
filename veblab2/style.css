@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.welcome-message {
+    background-color: #1a5897;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 800px;
+    background: rgb(241, 241, 241);
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #1a5897;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #1a5897;
+    border-bottom: 2px solid #1a5897;
+    padding-bottom: 5px;
+}
+
+.contact p, .skills ul, .languages ul {
+    margin: 10px 0;
+}
+
+.skills ul, .languages ul {
+    list-style: circle;
+}
+
+.hire-button, .top-button {
+    background-color: #1a5897;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hire-button:hover, .top-button:hover {
+    background-color: #104070;
+}
